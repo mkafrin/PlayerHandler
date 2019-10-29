@@ -1,0 +1,22 @@
+name: PlayerHandler
+main: me.mkafrin.PlayerHandler.PlayerHandler
+version: 1.5.1
+description: >
+             An easy way to handle and get information on players and the server!
+commands:
+  playerhandler:
+   description: Help and reload command
+  pinfo:
+   description: Displays all the information about a player
+  sinfo:
+   description: Displays all the information about the server
+  einfo:
+   description: Displays all extra information that the server provides
+  cmdstop:
+   description: Prevents player from using commands
+  blockstop:
+   description: Prevents player from either placing or breaking blocks, or both
+  stopchat:
+   description: Stops all or a specific player's chat until enabled again
+  freeze:
+   description: Freezes a specific player
